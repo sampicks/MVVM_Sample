@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void subsribeObservers() {
-        greetViewModel.getMessage().observe(this, new Observer<GreetMessage>() {
+        greetViewModel.getGreetMessage().observe(this, new Observer<GreetMessage>() {
             @Override
             public void onChanged(@Nullable GreetMessage greetMessage) {
-                Toast.makeText(MainActivity.this, greetMessage.getMessage(), greetMessage.getTimeDuration() * 1000).show();
+                    Toast.makeText(MainActivity.this, greetMessage.getMessage(), greetMessage.getTimeDuration() * 1000).show();
             }
         });
     }
