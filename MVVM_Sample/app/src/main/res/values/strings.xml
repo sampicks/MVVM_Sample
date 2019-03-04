@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MVVM_Sample</string>
+    <string name="greet_message">Greet Message</string>
+    <string name="enter_delay_in_seconds_2_15">Enter Delay in seconds (2-15)</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="pls_provide_values">Please provide valid values</string>
 </resources>
