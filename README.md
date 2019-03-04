@@ -1,4 +1,4 @@
-###Features
+### Features
 
 - Used MVVM architecture to develop this demo application
 
@@ -8,7 +8,7 @@
 
 Code Blocks (Preformatted text):
 
-####GreetViewModel.Java?
+#### GreetViewModel.Java　
 
     public class GreetViewModel extends ViewModel {
     private static final String TAG = "GreetViewModel";
@@ -28,7 +28,7 @@ Code Blocks (Preformatted text):
 	}
 
 
-####MainActivity.Java?
+#### MainActivity.Java　
 ```java
 // viewmodel
 private GreetViewModel greetViewModel;
@@ -46,7 +46,7 @@ private GreetViewModel greetViewModel;
 greetViewModel.doGreetRequest(time, msg);
 ```
 
-####Build.gradle
+#### Build.gradle
 
 ```groov
 // ViewModel and LiveData
