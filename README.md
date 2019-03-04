@@ -9,7 +9,7 @@
 Code Blocks (Preformatted text):
 
 #### GreetViewModel.Java　
-
+```java
     public class GreetViewModel extends ViewModel {
     private static final String TAG = "GreetViewModel";
     private GreetRespository greetRespository;
@@ -26,7 +26,7 @@ Code Blocks (Preformatted text):
         greetRespository.doGreetRequest(time, message);
     }
 	}
-
+```
 
 #### MainActivity.Java　
 ```java
