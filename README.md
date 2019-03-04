@@ -2,7 +2,7 @@
 
 - Used MVVM architecture to develop this demo application
 
-# MVVM_Sample.md
+# MVVM_Sample
 
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
